@@ -1,0 +1,19 @@
+body{
+    align-self: center;
+    background-color: #282828;
+    width:200px;
+    justify-content: center;
+    display:grid;
+    grid-template-columns: auto 20%;
+    padding: 4px;
+}
+button{
+    grid-column: 1/3;
+}
+label{
+    background-color: #FFFFFF;
+}
+body > *{
+    border:1px solid #DDDDDD;
+    margin:2px
+}
